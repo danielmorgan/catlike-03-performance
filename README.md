@@ -1,1 +1,1 @@
-![screenshot01.jpg]()
+![](screenshot01.png?raw=true)
