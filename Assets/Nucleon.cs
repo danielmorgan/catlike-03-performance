@@ -8,10 +8,10 @@ public class Nucleon : MonoBehaviour {
 	Rigidbody body;
 
 	void Awake() {
-		body = GetComponent<Rigidbody> ();
+		body = GetComponent<Rigidbody>();
 	}
 
 	void FixedUpdate () {
-		body.AddForce (transform.localPosition * -attractionForce);
+		body.AddForce(transform.localPosition * -attractionForce);
 	}
 }
